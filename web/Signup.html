@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <style>
+        body{
+            background: url("image/bd.jpg");
+            background-size:100%;
+            background-repeat: no-repeat;
+        }
+        .reg{
+            border: black;
+            color:White;
+            font-family: 'Courier New', Courier, monospace;
+            font-size:xx-large;
+            background-color:transparent;
+            margin: 8% 32%;
+            padding: 10px;
+            height: border-box;
+            width:30%;
+            min-width: 300px;
+
+            padding: 30px;
+            box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+
+
+        }
+        .reg:hover{
+            box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+            transition: 1s;
+        }
+
+        .reg>.titlee{text-align: center}
+
+        .reg>form>input{
+
+            background-color: snow;
+            margin-top: 10%;
+            width:95%;
+            height: 50px;
+            font-size: x-large;
+            padding-left:5%;
+
+        }
+        .reg>form>input:hover
+        {border-color:black;}
+        .reg>form>button{width:30%;height:50px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);font-size: x-large;color:white;background-color:midnightblue;border-color:transparent;box-sizing: border-box;padding-left:1%;padding-right:1%;margin-top: 10%}
+        .reg>form>button:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="reg">
+    <div class="titlee"><label><b>Website - Sign up</b></label></div>
+
+    <form action="Signup" method="post" spellcheck="false">
+        <input type="text" placeholder="Username" name="name">
+        <input type="text" placeholder="phone number" name="phno">
+        <input type="email" name="email" placeholder="e-mail">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit" style="width:100%" >Login</button>
+    </form>
+    <div style="margin-top: 15%;font-size: large;text-align: center">Already have an account? <a style="text-decoration: none;color:ghostwhite" href="login.html">Login</a></div>
+</div>
+</body>
+</html>
+
+
+
+
