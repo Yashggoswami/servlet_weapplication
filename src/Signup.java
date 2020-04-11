@@ -20,6 +20,7 @@ public class Signup extends HttpServlet {
         response.sendRedirect("Login.html");
 
     }
+    //connect
 
     public void connect(String name,String phno,String email,String password) {
         try {
